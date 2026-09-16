@@ -15,8 +15,10 @@ flatpak install flathub fr.handbrake.ghb -y
 flatpak install flathub org.openshot.OpenShot -y
 flatpak install flathub org.localsend.localsend_app -y
 flatpak install flathub org.cryptomator.Cryptomator -y
+flatpak install flathub com.moonlight_stream.Moonlight -y
 flatpak install flathub org.godotengine.Godot -y
 flatpak install flathub com.bambulab.BambuStudio -y
+flatpak install flathub io.missioncenter.MissionCenter -y
 flatpak install flathub org.gnome.Extensions -y
 ```
 
@@ -139,8 +141,8 @@ flatpak install flathub com.heroicgameslauncher.hgl -y
 flatpak install flathub com.getpostman.Postman -y
 flatpak install flathub org.audacityteam.Audacity -y
 flatpak install flathub fr.natron.Natron -y
-flatpak install flathub io.missioncenter.MissionCenter -y
 flatpak install flathub io.github.ilya_zlobintsev.LACT -y
+flatpak install flathub org.filezillaproject.Filezilla -y
 sudo dnf install ulauncher
 sudo dnf install steam -y
 sudo dnf install ./insync-x.x.x.xxxxx-fc42.x86_64.rpm
