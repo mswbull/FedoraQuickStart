@@ -13,6 +13,7 @@ flatpak install flathub com.obsproject.Studio -y
 flatpak install flathub org.videolan.VLC -y
 flatpak install flathub fr.handbrake.ghb -y
 flatpak install flathub org.openshot.OpenShot -y
+flatpak install flathub org.localsend.localsend_app -y
 flatpak install flathub org.cryptomator.Cryptomator -y
 flatpak install flathub org.godotengine.Godot -y
 flatpak install flathub com.bambulab.BambuStudio -y
