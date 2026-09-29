@@ -18,6 +18,7 @@ flatpak install flathub org.cryptomator.Cryptomator -y
 flatpak install flathub com.moonlight_stream.Moonlight -y
 flatpak install flathub org.godotengine.Godot -y
 flatpak install flathub com.bambulab.BambuStudio -y
+flatpak install flathub com.usebottles.bottles -y
 flatpak install flathub io.missioncenter.MissionCenter -y
 flatpak install flathub org.gnome.Extensions -y
 ```
@@ -66,6 +67,16 @@ sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/do
 sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 sudo systemctl enable --now docker
+```
+
+```
+# Distrobox
+
+sudo dnf install distrobox
+
+distrobox create --name my-box --image fedora:latest
+distrobox enter my-box
+
 ```
 
 ```
