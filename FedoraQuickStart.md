@@ -86,6 +86,11 @@ curl -fsSL https://claude.ai/install.sh | bash
 ```
 
 ```
+# Open Code
+sudo dnf install ./opencode-desktop*.rpm
+```
+
+```
 # Local AI
 
 curl -LsSf https://llama.app/install.sh | sh
